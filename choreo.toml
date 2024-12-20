@@ -29,7 +29,7 @@ level = "INFO" # Logging level: DEBUG, INFO, WARN, ERROR
 
 [security]
 enable_https = true
-certificates = "path/to/certificate.pem" # Specify the path to the certificate if required
+#certificates = "path/to/certificate.pem" # Specify the path to the certificate if required
 
 [expose]
 http_port = 8280
