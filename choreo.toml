@@ -32,5 +32,5 @@ enable_https = true
 #certificates = "path/to/certificate.pem" # Specify the path to the certificate if required
 
 [expose]
-http_port = 8280
+http_port = 8290
 https_port = 8243

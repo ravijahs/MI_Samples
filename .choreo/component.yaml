@@ -8,7 +8,7 @@ endpoints:
     type: REST
     networkVisibilities:
       - Organization
-    schemaFilePath: "./management-api.yaml"
+    schemaFilePath: "../helloConfigs/src/main/resources/management-api.yaml"
 
   - name: mi-service-api-http
     displayName: Service API HTTP
