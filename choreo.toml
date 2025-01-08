@@ -1,0 +1,36 @@
+# Choreo.toml for Hello World MI Deployment
+
+[project]
+name = "HelloWorldMI"
+description = "A simple Hello World Micro Integrator service for Choreo platform"
+type = "Integration"
+
+[deployment]
+environment = "development" # Use "development", "staging", or "production" as needed
+region = "us-west-1" # Specify the deployment region if required
+
+[dependencies]
+# Specify any external dependencies here if applicable
+# Example:
+# connector = ["mysql", "ftp"]
+
+[mi-service]
+name = "HelloWorldService"
+version = "1.0.0"
+entry_point = "src/main/synapse-config/api/HelloWorld.xml" # Path to the main service file
+description = "A sample service that returns Hello World"
+
+[resources]
+cpu = "500m" # Allocated CPU for the service
+memory = "256Mi" # Allocated memory for the service
+
+[logging]
+level = "INFO" # Logging level: DEBUG, INFO, WARN, ERROR
+
+[security]
+enable_https = true
+#certificates = "path/to/certificate.pem" # Specify the path to the certificate if required
+
+[expose]
+http_port = 8280
+https_port = 8243
