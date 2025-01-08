@@ -10,13 +10,13 @@ endpoints:
       - Organization
     schemaFilePath: "./management-api.yaml"
 
-  # - name: mi-service-api-http
-  #   displayName: Service API HTTP
-  #   service:
-  #     basePath: /
-  #     port: 8290
-  #   type: REST
-  #   networkVisibilities:
-  #     - Public
-  #   schemaFilePath: "../helloConfigs/src/main/resources/metadata/HelloWorld_swagger.yaml"
+  - name: mi-service-api-http
+    displayName: Service API HTTP
+    service:
+      basePath: /
+      port: 8290
+    type: REST
+    networkVisibilities:
+      - Public
+    schemaFilePath: "../helloConfigs/src/main/resources/metadata/HelloWorld_swagger.yaml"
    
