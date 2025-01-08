@@ -3,20 +3,20 @@ endpoints:
   - name: mi-management-api-http
     displayName: Management API HTTP
     service:
-      basePath: /Hello-world
+      basePath: /
       port: 9164
     type: REST
     networkVisibilities:
       - Organization
     schemaFilePath: "./management-api.yaml"
 
-  - name: mi-service-api-http
-    displayName: Service API HTTP
-    service:
-      basePath: /
-      port: 8290
-    type: REST
-    networkVisibilities:
-      - Public
-    schemaFilePath: "../helloConfigs/src/main/resources/metadata/HelloWorld_swagger.yaml"
+  # - name: mi-service-api-http
+  #   displayName: Service API HTTP
+  #   service:
+  #     basePath: /
+  #     port: 8290
+  #   type: REST
+  #   networkVisibilities:
+  #     - Public
+  #   schemaFilePath: "../helloConfigs/src/main/resources/metadata/HelloWorld_swagger.yaml"
    
