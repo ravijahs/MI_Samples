@@ -4,7 +4,7 @@ name : "HelloWorld"
 displayName : "HelloWorld"
 description: "Sample API"
 version: "1.0.0"
-serviceUrl: "https://localhost:8243/HelloWorld"
+serviceUrl: "https://localhost:8290/HelloWorld"
 definitionType: "OAS3"
 securityType: "BASIC"
 mutualSSLEnabled: false
