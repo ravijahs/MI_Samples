@@ -5,7 +5,7 @@ endpoints:
     service:
       basePath: /
       port: 9164
-      schemaFilePath: "../helloConfigs/src/main/resources/management-api.yaml"
+      schemaFilePath: "./management-api.yaml"
     type: REST
     networkVisibilities:
       - Organization

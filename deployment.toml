@@ -110,11 +110,11 @@ protocols = "http"
 dashboard_url = "http://8210-112-134-159-207.ngrok-free.app/dashboard/api/"
 management_hostname = "ccca0f46-e6d8-4b61-a1c3-6ba4e5cb3bfb-dev.e1-us-east-azure.preview-dv.choreoapis.dev/mtls-setup/mi-helloworld/mi-management-api-http/v1.0"
 
-[management_api.jwt_token_security_handler]
-enable = false
+#[management_api.jwt_token_security_handler]
+#enable = false
 
-[management_api.authorization_handler]
-enable = false
+#[management_api.authorization_handler]
+#enable = false
 
-[choreo_api_security]
-enable = false
+#[choreo_api_security]
+#enable = false
