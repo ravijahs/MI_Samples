@@ -1,23 +1,22 @@
-schemaVersion: 1.1
+schemaVersion: 1.
 endpoints:
   - name: mi-management-api-http
     displayName: Management API HTTP
     service:
-      basePath: /
+      basePath: /Hello-world
       port: 9164
-      schemaFilePath: "./management-api.yaml"
     type: REST
     networkVisibilities:
       - Organization
+    schemaFilePath: "./management-api.yaml"
 
   - name: mi-service-api-http
     displayName: Service API HTTP
     service:
       basePath: /
       port: 8290
-      schemaFilePath: "../helloConfigs/src/main/resources/metadata/HelloWorld_swagger.yaml"
     type: REST
     networkVisibilities:
       - Public
-
- 
+    schemaFilePath: "../helloConfigs/src/main/resources/metadata/HelloWorld_swagger.yaml"
+   
