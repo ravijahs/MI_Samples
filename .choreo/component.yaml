@@ -18,5 +18,5 @@ endpoints:
     type: REST
     networkVisibilities:
       - Public
-    schemaFilePath: "../helloConfigs/src/main/resources/metadata/swagger.yaml"
+    schemaFilePath: swagger.yaml
    
