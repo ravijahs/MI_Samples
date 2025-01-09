@@ -13,7 +13,7 @@ endpoints:
       # +optional Context (base path) of the API that gets exposed via the endpoint.
       basePath: /Hello-world
       # +required Numeric port value that gets exposed via the endpoint
-      port: 9090
+      port: 8290
     # +required Type of traffic that the endpoint is accepting.
     # Allowed values: REST, GraphQL, WS, GRPC, TCP, UDP.
     type: REST
@@ -21,7 +21,7 @@ endpoints:
     # Accepted values: Project|Organization|Public(Default).
     networkVisibilities: 
       - Public
-    schemaFilePath: swagger.yaml
+    schemaFilePath: "../helloConfigssrc/main/resources/metadata/HelloWorld_swagger.yaml"
   
   - name: mi-admin-service
     # +optional Display name for the endpoint.
@@ -38,7 +38,7 @@ endpoints:
     # +optional Network level visibilities of the endpoint.
     # Accepted values: Project|Organization|Public(Default).
     networkVisibilities: 
-      - Public
+      - Organization
     schemaFilePath: swagger.yaml
 
    

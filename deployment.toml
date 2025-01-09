@@ -120,5 +120,9 @@ enable = false
 # username = "admin"
 # password = "admin"
 
-# [dashboard_config]
-# dashboard_url = "https://localhost:9743/dashboard/api/"
+[dashboard_config]
+dashboard_url = "http://localhost:9743/dashboard/api/"
+management_hostname = "ccca0f46-e6d8-4b61-a1c3-6ba4e5cb3bfb-dev.e1-us-east-azure.preview-dv.choreoapis.dev/mtls-setup/mi-helloworld/mi-management-api-http/v1.0"
+
+[choreo_api_security]
+enable = false
