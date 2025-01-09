@@ -37,8 +37,6 @@ paths:
                   AccessToken:
                     type: string
                     example: "%AccessToken%"
-      security:
-        - BasicAuth: []
       tags:
         - Get JWT Token
   /login:
