@@ -125,5 +125,5 @@ dashboard_url = "https://da029ff7-4b16-41ed-bd9e-37e33c702089-dev-internal.e1-us
 management_hostname = "da029ff7-4b16-41ed-bd9e-37e33c702089-dev-internal.e1-us-east-azure.internal.choreoapis.dev:9164"
 
 [choreo_api_security]
-enable = false[dashboard_config]
+enable = false
 
