@@ -30,13 +30,13 @@ endpoints:
       port: 9201
     type: REST
     networkVisibilities: 
-      - Organization
+      - Public
     schemaFilePath: swagger.yaml
 
   - name: mi-hello-world-https
     displayName: mi-hello-world-https
     service:
-      basePath: /mi-hello-world-https/v1.0/
+      basePath: /
       port: 8253
     type: REST
     networkVisibilities: 
