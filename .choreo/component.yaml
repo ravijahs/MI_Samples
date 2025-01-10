@@ -21,7 +21,7 @@ endpoints:
     # Accepted values: Project|Organization|Public(Default).
     networkVisibilities: 
       - Public
-    schemaFilePath: swagger.yaml
+    schemaFilePath: ../helloConfigs/src/main/resources/metadata/HelloWorld_swagger.yaml
   
   - name: mi-admin-service
     displayName: mi-admin-service
