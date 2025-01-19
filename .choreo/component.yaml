@@ -23,10 +23,10 @@ endpoints:
       - Public
     schemaFilePath: swagger.yaml
   
-  - name: mi-admin-service
-    displayName: mi-admin-service
+  - name: mi-management-service
+    displayName: mi-management-service
     service:
-      basePath: /
+      basePath: /management
       port: 9201
     type: REST
     networkVisibilities: 

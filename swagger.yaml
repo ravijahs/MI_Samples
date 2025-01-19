@@ -20,7 +20,7 @@ info:
   description: Documentation for the WSO2 Micro Integrator Management API
   version: 1.0.0
 servers:
-  - url: https://da029ff7-4b16-41ed-bd9e-37e33c702089-dev.e1-us-east-azure.choreoapis.dev/micro-integrator/mi-samples-new
+  - url: https://da029ff7-4b16-41ed-bd9e-37e33c702089-dev.e1-us-east-azure.choreoapis.dev/micro-integrator/mi-samples-new/management
     description: Public URL for the Management API
 paths:
   /:
