@@ -26,7 +26,7 @@ endpoints:
   - name: mi-management-service
     displayName: mi-management-service
     service:
-      basePath: /management
+      basePath: /micro-integrator/mi-samples-new/mi-management-service/v1.0
       port: 9201
     type: REST
     networkVisibilities: 
