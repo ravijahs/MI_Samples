@@ -27,7 +27,7 @@ endpoints:
     displayName: mi-admin-service
     service:
       basePath: /management
-      port: 9164
+      port: 9201
     type: REST
     networkVisibilities: 
       - Public
