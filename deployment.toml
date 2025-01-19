@@ -19,6 +19,7 @@ algorithm = "AES"
 
 [management_api]
 protocols = "http"
+port = 9164
 
 [management_api.jwt_token_security_handler]
 enable = true

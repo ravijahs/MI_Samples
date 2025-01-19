@@ -11,7 +11,7 @@ endpoints:
     # +required Service section has the user service endpoint details
     service:
       # +optional Context (base path) of the API that gets exposed via the endpoint.
-      basePath: /
+      basePath: /HelloWorld
       # +required Numeric port value that gets exposed via the endpoint
       port: 8290
     # +required Type of traffic that the endpoint is accepting.
@@ -27,7 +27,7 @@ endpoints:
     displayName: mi-admin-service
     service:
       basePath: /management
-      port: 9201
+      port: 9164
     type: REST
     networkVisibilities: 
       - Public
