@@ -7,7 +7,7 @@ servers:
 - url: http://localhost:8290/HelloWorld
 paths:
   /:
-    get:
+    post:
       responses:
         default:
           description: Default response
