@@ -120,9 +120,9 @@ enable = true
 # username = "admin"
 # password = "admin"
 
-[dashboard_config]
-dashboard_url = "https://c2a1-203-94-95-11.ngrok-free.app/dashboard/api/"
-management_hostname = "da029ff7-4b16-41ed-bd9e-37e33c702089-dev-internal.e1-us-east-azure.internal.choreoapis.dev"
+#[dashboard_config]
+#dashboard_url = "https://c2a1-203-94-95-11.ngrok-free.app/dashboard/api/"
+#management_hostname = "da029ff7-4b16-41ed-bd9e-37e33c702089-dev-internal.e1-us-east-azure.internal.choreoapis.dev"
 
 [choreo_api_security]
 enable = false
