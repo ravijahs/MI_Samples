@@ -1,8 +1,8 @@
 schemaVersion: 1.1
 
 endpoints:
-  - name: mi-hellow-world
-    displayName: mi-hellow-world
+  - name: mi-hello-world
+    displayName: mi-hello-world
     service:
       basePath: /HelloWorld
       port: 8290
