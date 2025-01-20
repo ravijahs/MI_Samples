@@ -9,7 +9,7 @@ endpoints:
     type: REST
     networkVisibilities: 
       - Public
-    schemaFilePath: /
+    schemaFilePath: helloConfigs/src/main/resources/metadata/HelloWorld_swagger.yaml
   
   - name: mi-management-service
     displayName: mi-management-service
@@ -18,6 +18,5 @@ endpoints:
       port: 9201
     type: REST
     networkVisibilities: 
-      - Public
       - Organization
     schemaFilePath: swagger.yaml
