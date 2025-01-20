@@ -9,7 +9,7 @@ endpoints:
     type: REST
     networkVisibilities: 
       - Public
-    schemaFilePath: swagger.yaml
+    schemaFilePath: /
   
   - name: mi-management-service
     displayName: mi-management-service
@@ -19,4 +19,5 @@ endpoints:
     type: REST
     networkVisibilities: 
       - Public
+      - Organization
     schemaFilePath: swagger.yaml
