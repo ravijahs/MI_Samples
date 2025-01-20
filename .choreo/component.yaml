@@ -9,7 +9,7 @@ endpoints:
     type: REST
     networkVisibilities: 
       - Public
-    schemaFilePath: helloConfigs/src/main/resources/metadata/HelloWorld_swagger.yaml
+    schemaFilePath: swagger/HelloWorld-swagger.yaml
   
   - name: mi-management-service
     displayName: mi-management-service
