@@ -18,5 +18,5 @@ endpoints:
       port: 9201
     type: REST
     networkVisibilities: 
-      - Public
+      - Organization
     schemaFilePath: swagger.yaml
