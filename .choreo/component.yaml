@@ -19,4 +19,5 @@ endpoints:
     type: REST
     networkVisibilities: 
       - Organization
+      - Public
     schemaFilePath: swagger.yaml
