@@ -11,8 +11,8 @@ endpoints:
       - Public
     schemaFilePath: helloConfigs/src/main/resources/metadata/HelloWorld_swagger.yaml
   
-  - name: mi-management-service
-    displayName: mi-management-service
+  - name: mi-management-api
+    displayName: mi-management-api
     service:
       basePath: /management
       port: 9201
