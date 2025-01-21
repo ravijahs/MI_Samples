@@ -1,5 +1,5 @@
 [server]
-hostname = "da029ff7-4b16-41ed-bd9e-37e33c702089-dev-internal.e1-us-east-azure.internal.choreoapis.dev"
+hostname = "da029ff7-4b16-41ed-bd9e-37e33c702089-dev.e1-us-east-azure.choreoapis.dev"
 # offset  = 10
 
 [user_store]
