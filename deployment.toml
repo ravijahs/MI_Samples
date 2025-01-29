@@ -21,10 +21,10 @@ algorithm = "AES"
 protocols = "http"
 
 [management_api.jwt_token_security_handler]
-enable = true
+enable = false
 
 [management_api.authorization_handler]
-enable = true
+enable = false
 
 ## Following are set of example configs. Please refer docs for complete set of configurations.
 
@@ -125,5 +125,5 @@ enable = true
 # management_hostname = "da029ff7-4b16-41ed-bd9e-37e33c702089-dev.e1-us-east-azure.choreoapis.dev/micro-integrator/mi-samples-new/mi-management-service/v1.0"
 
 [choreo_api_security]
-enable = false
+enable = true
 
