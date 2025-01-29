@@ -124,5 +124,6 @@ enable = false
 # dashboard_url = "https://c2a1-203-94-95-11.ngrok-free.app/dashboard/api/"
 # management_hostname = "da029ff7-4b16-41ed-bd9e-37e33c702089-dev.e1-us-east-azure.choreoapis.dev/micro-integrator/mi-samples-new/mi-management-service/v1.0"
 
-
+[choreo_api_security]
+enable = true
 
