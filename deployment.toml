@@ -21,10 +21,10 @@ algorithm = "AES"
 protocols = "http"
 
 [management_api.jwt_token_security_handler]
-enable = true
+enable = false
 
 [management_api.authorization_handler]
-enable = true
+enable = false
 
 ## Following are set of example configs. Please refer docs for complete set of configurations.
 
